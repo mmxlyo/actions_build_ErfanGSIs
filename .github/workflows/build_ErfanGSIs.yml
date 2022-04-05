@@ -47,7 +47,7 @@ jobs:
               sudo bash ./setup.sh
        
        - name: Download Stock Rom & Generate GSI
-         run: sudo bash ./url2GSI.sh $ROM_URL $ROM_NAME
+         run: sudo bash ./url2GSI.sh https://dl.google.com/dl/android/aosp/bramble-ota-sp2a.220405.003-080c4046.zip?hl=zh-cn Pixel
        
        - name: Zip GSI  
          run: |
