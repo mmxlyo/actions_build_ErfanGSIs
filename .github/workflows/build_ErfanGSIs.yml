@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl.google.com/developers/android/tm/images/ota/bramble-ota-tpp1.220114.016-ee42063d.zip
+  ROM_URL: https://dl.google.com/dl/android/aosp/bramble-ota-sp2a.220405.003-080c4046.zip?hl=zh-cn
   ROM_NAME: Pixel
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
